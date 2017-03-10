@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Operaciones_1 = require("./Operaciones");
+var Cadena_1 = require("./Cadena");
+var cadena = new Cadena_1.Cadena('hola mundo');
+console.log(cadena.countVocals());
+console.log(cadena.countWords());
+console.log(cadena.countLetters());
+console.log(cadena.isPalindrome());
+var operaciones = new Operaciones_1.Operaciones(5, 5);
+console.log(operaciones.add());
+console.log(operaciones.sub());
+console.log(operaciones.factorial(6));
+console.log(operaciones.isPrime(46));
